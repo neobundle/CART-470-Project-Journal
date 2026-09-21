@@ -5,4 +5,4 @@
 
 ## Table of contents
 Contents
-[Week 2](Journal Entry Week 2.md)
+[Week 2](Journal-Entry-Week-2.md)
