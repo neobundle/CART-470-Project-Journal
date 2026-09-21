@@ -2,7 +2,7 @@
 
 Roles for the project are still undetermined, but several questions came up that would give us more clarity and better direction on an ideal approach.
 
-To prepare, I signed up for a 3D printing workshop at the library, which should give me some insight into how we could approach a 3D printed prototype if we wish to go thay way.
+To prepare, I signed up for and attended a 3D printing workshop at the library, which should give me some insight into how we could approach a 3D printed prototype if we wish to go that way.
 
 Ideas are still scarce for now, but things will likely become clearer once we meet with the client.
 
