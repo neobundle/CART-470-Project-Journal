@@ -5,7 +5,9 @@
 
 ## Table of contents
 [Week 2](Journal-Entry-Week-2.md)
+
 [Week 3](Journal-Entry-Week-3.md)
+
 [Week 4](Journal-Entry-Week-4.md)
 [Week 5](Journal-Entry-Week-5.md)
 [Week 6](Journal-Entry-Week-6.md)
