@@ -4,7 +4,7 @@
 
 
 ## Table of contents
-[Week 2](Journal-Entry-Week-2.md)
+[Week 2](week-2\Journal-Entry-Week-2.md)
 
 [Week 3](Journal-Entry-Week-3.md)
 
