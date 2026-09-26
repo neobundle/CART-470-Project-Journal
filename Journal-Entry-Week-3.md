@@ -5,7 +5,9 @@ This week we have met our client, Nadia Myre, and have managed to ask many quest
 Ideas can now be narrower and better suited to her vision, but it is still unclear and undecided as to what we can make. For our living contract, I proposed that we should come up with three ideas that should be the first milestone. As a Computation Arts student, I do not know if we can design an object of that sort, but we can surely come up with an idea that could mimic what she desires. My first idea was a scanner; she had mentioned gloves or an app that would analyse the tapestry; I believe a scanner would be the best of both worlds. It remains to be seen as to how this could be implemented and created. I signed up for an Arduino workshop at the library so I could get a better insight into implementation, as surely a scanner, if object-wise, is made instead of app-wise.  We also went to visit the ceramic shop at the VA building and see the tapestry that Nadia and her technicians were working on. 
 
 #### Some inspiration I found online: 
+<img width="462" height="224" alt="image" src="https://github.com/user-attachments/assets/e899ea97-7ecb-4a0a-a24b-48fbadc1bec0" />
 - https://www.reddit.com/r/arduino/comments/ntjxde/make_your_own_color_sensor_the_lowest_cost_and/ 
+
 
 With this, a user could scan the tapestry, and each color could give a sound.
 Another idea I had was to associate a color with the song from Nadia's grandmother. Then, when the tapestry is scanned, it could give out the different notes, all taken from the song.
@@ -17,7 +19,7 @@ In the same vein, I thought about the fact that since Arabic musical scales exis
 - https://singingtreeflutes.com/pages/nai
 
   
-For our next meeting, I will share that idea.
+For our next communication, I will share that idea.
 
 ### Accomplished this week
 - Meeting with the client
