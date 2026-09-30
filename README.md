@@ -1,4 +1,4 @@
-*This is a journal documenting the process for the CART 470 Project *A Song for My Mother**
+*This is a journal documenting the process for the CART 470 Project _A Song for My Mother_*
 
 
 ### A Song for My Mother 
