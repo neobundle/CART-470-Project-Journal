@@ -1,11 +1,11 @@
-# This is a journal documenting the process for the CART 470 Project *A Song for My Mother*
+## This is a journal documenting the process for the CART 470 Project *A Song for My Mother*
 
 
-## A Song for My Mother 
+### A Song for My Mother 
 
 *A Song for My Mother* is a tapestry-of-ceramic-beads project where survivors' voices are embedded into the work. Our mission is to prototype a device, object, or method for embedding those voices within the ceramic. From coding to electronics to 3D printing and sensors, multiple options are being considered to make this feasible.
 
-## [Living Contract] (https://docs.google.com/document/d/10HfFsOKjQlydctNI5_ 5I-ez3otTPzJfXdVj4DLKkVEI?tab=t.3fzmkgxi7515)
+#### [Living Contract] (https://docs.google.com/document/d/10HfFsOKjQlydctNI5_ 5I-ez3otTPzJfXdVj4DLKkVEI?tab=t.3fzmkgxi7515)
 
 
 ## Table of contents
