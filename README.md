@@ -2,7 +2,7 @@
 
 *A Song for My Mother* is a tapestry-of-ceramic-beads project where survivors' voices are embedded into the work. Our mission is to prototype a device, object, or method for embedding those voices within the ceramic. From coding to electronics to 3D printing and sensors, multiple options are being considered to make this feasible.
 
-#### Living Contract [Link](https://docs.google.com/document/d/10HfFsOKjQlydctNI5_5I-ez3otTPzJfXdVj4DLKkVEI?tab=t.3fzmkgxi7515)
+#### Living Learning Contract [Link](https://docs.google.com/document/d/10HfFsOKjQlydctNI5_5I-ez3otTPzJfXdVj4DLKkVEI?tab=t.3fzmkgxi7515)
 
 
 ## Table of contents
