@@ -12,6 +12,15 @@ we visited the VA Building, but she wasn't in either place she previously took u
 
 We were also able to meet with our teammate Namiko, who couldn't join us before.
 
+| Ideas | Ressources |
+|-------|------------|
+| Adding a speaker to the Arduino | https://www.hackster.io/blackpanda856/play-music-using-arduino-uno-and-a-speaker-b94e4a |
+
+An idea that Sophie mentioned when we were talking about ideas was for an object to have a cylindrical form, like the ceramics. I think this could be used as the scanner enclosure. I think the image below could be a reference. Something cylinder with a handle. The enclosure is a last priority.
+
+<img width="360" height="360" alt="image" src="https://github.com/user-attachments/assets/c89dc47d-1831-48f4-bc25-490d89b2bb28" />
+
+
 ### What was accomplished
 - Decided on a final idea rather than three, so we could have more time to work on it
 - Milestone 2 became Milestone 1
