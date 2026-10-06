@@ -15,7 +15,8 @@ We were also able to meet with our teammate Namiko, who couldn't join us before.
 | Ideas | Ressources |
 |-------|------------|
 | Adding a speaker to the Arduino | https://www.hackster.io/blackpanda856/play-music-using-arduino-uno-and-a-speaker-b94e4a |
-| Turning sound into colors | https://thefinaltoolkit.vercel.app/tools/sound-to-color and https://www.altftool.com/tools/all/sound-to-color-synesthesia|
+| Turning sound into colors | https://thefinaltoolkit.vercel.app/tools/sound-to-color
+ https://www.altftool.com/tools/all/sound-to-color-synesthesia|
 
 Terence shared a picture of the soundwave created by an audio file he took. I think it's also important to look for different ways to do this. I will share the resources I find to the team and so that we can decide which way is the best way to proceed.
 
