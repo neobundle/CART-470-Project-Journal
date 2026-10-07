@@ -2,7 +2,8 @@
 
 This week we met with Mak, the TA. We discussed our plans, the ideas we had, and how we plan to execute them. We also discussed our living-learning contract, and we scheduled our next steps. 
 After the meeting, we were able to converge on the idea of converting the song into colors, resulting in a distorted version of the song when scanning the tapestry. 
-<img width="1462" height="824" alt="image" src="https://github.com/user-attachments/assets/15b93b74-ecc2-4c6d-98d7-fba27a9d3119" />
+
+<img width="862" height="524" alt="image" src="https://github.com/user-attachments/assets/15b93b74-ecc2-4c6d-98d7-fba27a9d3119" />
 
 Three of us have Arduinos or a Raspberry Pi, but an Arduino will most probably be used for this first prototype, as it's the one used in the [video](https://www.reddit.com/r/arduino/comments/ntjxde/make_your_own_color_sensor_the_lowest_cost_and/) that gave the idea.
 
@@ -12,27 +13,37 @@ we visited the VA Building, but she wasn't in either place she previously took u
 
 We were also able to meet with our teammate Namiko, who couldn't join us before.
 
+-----------------------------------------
+
 | Ideas | Ressources |
 |-------|------------|
 | Adding a speaker to the Arduino | https://www.hackster.io/blackpanda856/play-music-using-arduino-uno-and-a-speaker-b94e4a |
 | Turning sound into colors | https://thefinaltoolkit.vercel.app/tools/sound-to-color, https://www.altftool.com/tools/all/sound-to-color-synesthesia|
 | Turning colors into sound | https://www.instructables.com/Color-to-Sound-Converter/ |
+| Turning audio into notes | https://basicpitch.spotify.com/ |
 
-Terence shared a picture of the soundwave created by an audio file he took. I think it's also important to look for different ways to do this. I will share the resources I find to the team and so that we can decide which way is the best way to proceed.
+Terence shared a picture of the soundwave created by an audio file he took. I think it's also important to look for different ways to do this. I will share the resources I find with the team so that we can decide which way is the best way to proceed.
 
-An idea that Sophie mentioned when we were talking about ideas was for an object to have a cylindrical form, like the ceramics. I think this could be used as the scanner enclosure. I think the image below could be a reference. Something cylinder with a handle. The enclosure is a last priority.
+#### Written down ideas
+<img width="747" height="366" alt="image" src="https://github.com/user-attachments/assets/f316b7c5-7ee4-4454-913b-0cf6d8a83392" />
+
+-----------------------------------------
+
+An idea that Sophie mentioned when we were talking about ideas was for an object to have a cylindrical form, like the ceramics. I think this could be used as the scanner enclosure. I think the image below could be a reference. Something cylindrical with a handle. The enclosure is a last priority.
 
 <img width="360" height="360" alt="image" src="https://github.com/user-attachments/assets/c89dc47d-1831-48f4-bc25-490d89b2bb28" />
 
-
+-----------------------------------------
 ### What was accomplished
 - Decided on a final idea rather than three, so we could have more time to work on it
 - Milestone 2 became Milestone 1
 - We have decided on the electronic to be used (Arduino)
 
 ### What remains 
-- We need to accurately divide the work as soon as we get the song: following a video tutorial is easy, but since this is a 6-person team, we need to make sure everyone has something to do and is able to contribute.
+- We need to accurately divide the work as soon as we get the song: following a video tutorial is easy, but since this is a 6-person team, we need to make sure everyone has something to do and can contribute.
 - We need to establish a line of communication with Nadia
+
+_(As of 06/10) Note: We finally got a reply from Nadia and will be able to meet her on Wednesday, Oct 7th._
 
   
 
