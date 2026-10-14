@@ -107,7 +107,7 @@ Arduino worked but it didn't detect the color properly so we were provided the t
 
 We used the code from the manufacturer github : https://github.com/sparkfun/SparkFun_AS7265x_Arduino_Library/tree/main/examples
 
-### Readings from the spectral triad 
+#### Readings from the spectral triad 
 ```
 2526.01,177.28,133.32,63.31,62.56,35.24,46.35,22.16,16.92,28.63,
 90.56,396.00,238.07,255.89,151.69,449.94,286.62,373.41,2528.31,177.28,142.21,63.31,62.56,35.24,46.35,22.16,16.92,28.63,
