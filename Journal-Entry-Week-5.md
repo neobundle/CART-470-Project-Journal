@@ -14,7 +14,7 @@ Roles were assigned for the project, and we were able to communicate with Nadia.
 We were able to obtain samples of ceramic beads so that we could accurately test out the scanner. We also decided to meet during reading week to work on the Arduino together.
 In the meantime, I was able to search for alternative ways to create the color sensor. Due to time constraints, I felt it would be better to have alternatives in case things didn't work as expected.
 
-I found multiple tutorials for the Arduino, and buying the sensor directly instead of making it ourselves would save a lot of time, especially for testing.
+I found multiple tutorials for the Arduino, the different sensors it could require, so that we have a lot of options to test when we meet.
 
 ### Material
 Color sensor
@@ -130,9 +130,13 @@ We used the code from the manufacturer github : https://github.com/sparkfun/Spar
 -----------------------------------------
 ### What was accomplished
 - Acquired the first batch of material (Arduino in my case)
+- Met up with Jolene and Terence to build the sensor
+- Tried two different sensors
+- Settled on the sensor to use (Triad Spectroscopy)
 
-### What remains 
-- Testing out the prototype
+### What remains
+- Translating the readings of the sensor to colors
+- Mapping out the colors to the audio 
 - Trying out the audio with the Arduino
 - Adding the audio component to the Arduino
   
