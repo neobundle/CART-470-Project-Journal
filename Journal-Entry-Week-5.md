@@ -99,10 +99,13 @@ if (red > green && red > blue) {
  delay(2000); 
 }
 ```
-Arduino worked but it didn't detect the color properly so we were provided the triad spectroscopy sensor that would do the job better. 
+
 <img width="903" height="685" alt="image" src="https://github.com/user-attachments/assets/72601b0f-cb17-4381-987f-50bf2228477d" />
 
-https://github.com/sparkfun/SparkFun_AS7265x_Arduino_Library/tree/main/examples
+Arduino worked but it didn't detect the color properly so we were provided the triad spectroscopy sensor that would do the job better. 
+
+
+We used the code from the manufacturer github : https://github.com/sparkfun/SparkFun_AS7265x_Arduino_Library/tree/main/examples
 
 ### Readings from the spectral triad 
 ```
