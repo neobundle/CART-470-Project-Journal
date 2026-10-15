@@ -127,6 +127,100 @@ We used the code from the manufacturer github : https://github.com/sparkfun/Spar
 87.64,
 ```
 
+I was able to find a video that turns the readings into colors with an ESP32.It gave this [link](https://how2electronics.com/diy-colorimeter-using-as7265x-spectroscopy-sensor-esp32/)
+
+I modified, with the help of Claude, the existing code of the spectral sensor with the code provided in the link. Only the first 12 channels can be divided into RGB,since the others ones are not visible to the eye. The "press key" to enter was removed so it would detect color directly. Brightness isn't really considered in the code, so after the test we'll have to modify the code again if needed to distinguish light and dark.
+
+```
+/*
+  AS7265x Spectral Triad -> RGB / HEX color reader
+  Based on SparkFun Example 2 (Nathan Seidle, MIT license)
+
+  Reads the 12 visible channels (410-705 nm), groups them into
+  blue / green / red, normalizes, and prints RGB (0-255) + HEX.
+  Infrared channels (T, U, V, W, K, L) are ignored for color.
+
+  Serial Monitor: 115200 baud
+*/
+
+#include <Wire.h>
+#include "SparkFun_AS7265X.h"
+
+AS7265X sensor;
+
+// Clamp a 0..1 float and scale it to 0..255
+uint8_t toByte(float v)
+{
+  if (v < 0.0) v = 0.0;
+  if (v > 1.0) v = 1.0;
+  return (uint8_t)(v * 255.0 + 0.5);
+}
+
+void setup()
+{
+  Serial.begin(115200);
+  Serial.println("AS7265x Color Reader");
+
+  if (sensor.begin() == false)
+  {
+    Serial.println("Sensor not detected. Check wiring. Freezing...");
+    while (1);
+  }
+
+  sensor.disableIndicator(); // turn off the blue status LED
+  Serial.println("Ready. Hold a sample against the sensor.");
+}
+
+void loop()
+{
+  sensor.takeMeasurementsWithBulb(); // lights the sample, reads all 18 channels
+
+  // Visible channels only
+  float A  = sensor.getCalibratedA(); // 410nm violet
+  float B  = sensor.getCalibratedB(); // 435nm blue
+  float C  = sensor.getCalibratedC(); // 460nm blue
+  float D  = sensor.getCalibratedD(); // 485nm blue-cyan
+  float E  = sensor.getCalibratedE(); // 510nm cyan-green
+  float F  = sensor.getCalibratedF(); // 535nm green
+  float G  = sensor.getCalibratedG(); // 560nm yellow-green
+  float H  = sensor.getCalibratedH(); // 585nm yellow-orange
+  float Rr = sensor.getCalibratedR(); // 610nm orange
+  float I  = sensor.getCalibratedI(); // 645nm red
+  float S  = sensor.getCalibratedS(); // 680nm deep red
+  float J  = sensor.getCalibratedJ(); // 705nm deep red
+
+  // Group by wavelength
+  float blue  = (A + B + C + D) / 4.0;
+  float green = (E + F + G) / 3.0;
+  float red   = (H + Rr + I + S + J) / 5.0;
+
+  // Normalize so the strongest channel = 1.0
+  float maxVal = max(red, max(green, blue));
+
+  uint8_t r8 = 0, g8 = 0, b8 = 0;
+  if (maxVal > 0.001)
+  {
+    r8 = toByte(red   / maxVal);
+    g8 = toByte(green / maxVal);
+    b8 = toByte(blue  / maxVal);
+  }
+
+  char hex[8];
+  sprintf(hex, "#%02X%02X%02X", r8, g8, b8);
+
+  // Output
+  Serial.print("RGB: ");
+  Serial.print(r8); Serial.print(", ");
+  Serial.print(g8); Serial.print(", ");
+  Serial.print(b8);
+  Serial.print("   HEX: ");
+  Serial.println(hex);
+
+  delay(500);
+}
+
+```
+
 -----------------------------------------
 ### What was accomplished
 - Acquired the first batch of material (Arduino in my case)
@@ -135,7 +229,7 @@ We used the code from the manufacturer github : https://github.com/sparkfun/Spar
 - Settled on the sensor to use (Triad Spectroscopy)
 
 ### What remains
-- Translating the readings of the sensor to colors
+- Trying out the sensor with the new code
 - Mapping out the colors to the audio 
 - Trying out the audio with the Arduino
 - Adding the audio component to the Arduino
