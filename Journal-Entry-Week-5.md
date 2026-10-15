@@ -127,7 +127,7 @@ We used the code from the manufacturer github : https://github.com/sparkfun/Spar
 87.64,
 ```
 
-I was able to find a video that turns the readings into colors with an ESP32.It gave this [link](https://how2electronics.com/diy-colorimeter-using-as7265x-spectroscopy-sensor-esp32/)
+I was able to find a video that turns the readings into colors with an ESP32. It gave this [link](https://how2electronics.com/diy-colorimeter-using-as7265x-spectroscopy-sensor-esp32/) in the description and on there was present the code used in the video.
 
 I modified, with the help of Claude, the existing code of the spectral sensor with the code provided in the link. Only the first 12 channels can be divided into RGB,since the others ones are not visible to the eye. The "press key" to enter was removed so it would detect color directly. Brightness isn't really considered in the code, so after the test we'll have to modify the code again if needed to distinguish light and dark.
 
