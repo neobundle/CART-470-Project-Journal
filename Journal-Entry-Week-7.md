@@ -19,6 +19,9 @@ She also mentioned that the tapestry would be shades of pink and very feminine c
 
 
 ## Accomplished
-
-
+0
 ## What needs to be done
+
+
+------
+< [Week 6](https://forum.arduino.cc/t/simplest-battery-power-to-arduino-nano-solution/530242/2)
