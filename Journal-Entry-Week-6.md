@@ -37,4 +37,4 @@ to see if there's a way it could be better and not as sharp. Though Nadia did te
 - Starting up the presentation due Nov 4th
 - Divide the presentation time since it needs to be 18 min minimum
 - Get the song from Nadia so we can use it in the code instead of placeholders
-- Come up with our own kind of tapestry so we can 
+- Come up with our own kind of tapestry so we can show what it could accomplish for Nadia
