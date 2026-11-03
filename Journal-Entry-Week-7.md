@@ -11,7 +11,7 @@ She also mentioned that the tapestry would be shades of pink and very feminine c
 
 -------
 
-After researching what could be done, the best course of action would be to create a scanner that could connect to a portable battery. Nadia said she could provide the material for us, so I created an Amazon list with the items necessary to make this possible. To use the prototype without a computer and to make it a bit smaller, we need an Arduino Nano, a speaker, an audio player, and a microSD card. 
+After researching what could be done, the best course of action would be to create a scanner that could connect to a portable bank. Nadia said she could provide the material for us, so I created an Amazon list with the items necessary to make this possible. To use the prototype without a computer and to make it a bit smaller, we need an Arduino Nano, a speaker, an audio player, and a microSD card. 
 
 Link to the list: https://www.amazon.ca/hz/wishlist/ls/BGGTLWL3U7R1?ref_=wl_share.
 
