@@ -1,4 +1,4 @@
-# Week 8
+# Week 9
 The team couldn't meet this week for various reasons, but we communicated the reasons on Discord. We updated each other on our work. 3D Design has been progressing and Namiko proposed to do the tapestry so that we could have a mini version of it.
 For the mini Arduino, we will meet to finally assemble it and try it out with the new code that Terence has been working on. 
 
