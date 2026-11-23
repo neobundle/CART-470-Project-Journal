@@ -351,4 +351,4 @@ void triggerAudio(int trackNumber)
 - Add the speaker to the Arduino with the mini player since it needs to be soldered. We also don't have any female-to-female wires, so we need those, or we'll have to use a breadboard
 - Communicate the measurements to Sophie and Bianca, so they can incorporate the portable battery.
 ------
-< [Week 9](https://github.com/neobundle/CART-470-Project-Journal/blob/week-9/Journal-Entry-Week-9.md)
+< [Week 9](https://github.com/neobundle/CART-470-Project-Journal/blob/week-9/Journal-Entry-Week-9.md)&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;[Week 11](https://github.com/neobundle/CART-470-Project-Journal/blob/week-11/Journal-Entry-Week-11.md) >
