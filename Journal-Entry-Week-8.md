@@ -20,4 +20,4 @@ We have been able to present our first prototype during class, and we have also 
 
 
 ------
-< [Week 7](https://github.com/neobundle/CART-470-Project-Journal/blob/week-6/Journal-Entry-Week-7.md)
+< [Week 7](https://github.com/neobundle/CART-470-Project-Journal/blob/week-7/Journal-Entry-Week-7.md)
