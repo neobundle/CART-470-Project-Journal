@@ -267,4 +267,4 @@ void triggerAudio(int trackNumber)
 ```
 
 ------
-< [Week 8](https://github.com/neobundle/CART-470-Project-Journal/blob/week-6/Journal-Entry-Week-8.md)
+< [Week 8](https://github.com/neobundle/CART-470-Project-Journal/blob/week-8/Journal-Entry-Week-8.md)
