@@ -347,6 +347,11 @@ void triggerAudio(int trackNumber)
 <img width="1164" height="527" alt="image" src="https://github.com/user-attachments/assets/a4dc9e06-98b6-42b5-9cfb-d9e408971ae6" />
 <img width="3000" height="4000" alt="TEMP1795403520356" src="https://github.com/user-attachments/assets/454f4dcb-1174-4904-9408-ff7c76020ed9" />
 
+### Connecting the player and the speaker to the Arduino Nano 
+- https://www.youtube.com/watch?v=AWpRGvP-9Lo
+- https://www.circuito.io/app?components=9442,11022,336411
+<img width="1351" height="722" alt="image" src="https://github.com/user-attachments/assets/77205a4f-01d6-436c-824b-358c5b8fc12f" />
+
 -------
 
 ## Accomplished
